@@ -113,7 +113,7 @@ const strategy = async (minAcurracy, epoch) => {
             } else {
                 lowPercentage = percentage(signals.sell, signals.buy)
             }
-            console.log("Waiting for next round 🕑", lowPercentage + "%")
+            console.log("Waiting for next round... 🕑", lowPercentage + "%")
         }
     } else {
         console.log("Error obtaining signals")
@@ -139,6 +139,6 @@ predictionContract.on("EndRound", async (epoch) => {
     console.log('--------------------------------')
     console.log(`🍀 Fortune: ${stats.percentage}`)
     console.log(`👍 ${stats.win}|${stats.loss} 👎 `)
-    console.log(`💰 Profit: ${stats.profit_USD.toFixed(3)} USD`)
+    console.log(`💰 Profit: ${stats.profit_USD.toFixed(2)} USD`)
     console.log('--------------------------------')
 })

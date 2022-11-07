@@ -1,6 +1,6 @@
 {
   "name": "pancakeswap-prediction-ai-bot",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "PancakeSwap Prediction AI Bot using Tradingview & AI recomendations.",
   "main": "bot.js",
   "scripts": {
