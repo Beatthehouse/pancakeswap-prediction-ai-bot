@@ -3,7 +3,7 @@
 
 ![PancakeSwap-Logo](/img/logo.jpg?raw=true)
 
-PancakeSwap Prediction Bot using AI recomendations.
+PancakeSwap Prediction Bot with AI-Generated Recommendations.
 
 ## ⭐Please consider giving a **star**.
 
@@ -47,14 +47,15 @@ A lot of wallets don't provide you the private key, but just the **seed phrase**
 
 
 ## 🤖📈 Strategy
-- The bot take a series of recomendations given by Trading View and proccess them together with the tendency of the rest of people betting. After the algorithm have complete, it choose to bet **🟢UP** or **🔴DOWN**.
-- After all my testings in aprox 300 rounds I was able to achieve a **~70% Win rate**. Of course it depends of a lot of variables, so I can't ensure that you will reproduce the same behavior. But I can tell that I make $20 - $70 daily with $3 Bets.
-- Before every round the bot will check if you have enough balance in your wallet and if you have reached the daily goal.
-- Also it will save the daily history in the **/history** directory.
-- Be aware that after consecutive losses, statistically you have more chances to win in the next one.
-- Inside **bot.js** in the ``THRESHOLD`` property of ``GLOBAL_CONFIG`` variable, you can configure the minimum certainty with which the bot will bet. For default it's set to 50, which means that from 50% certainty the bot will bet. You can raise it (50-100) to bet only when the bot is more sure about its prediction.
-- Its recomendable to have x10 - x50 the amount of bet to have an average of rounds.
 
+Boost Your Trading Success with Our AI-Powered PancakeSwap Prediction Bot!
+- Our bot takes a series of recommendations from Trading View and processes them along with the betting trends of other users. After the algorithm has completed, it makes a prediction on whether to bet **🟢UP** or **🔴DOWN**.
+- Through testing approximately 300 rounds, we were able to achieve a **~70% win rate**. Of course, results may vary based on various factors, but we have consistently made $20-$70 daily with just $3 bets.
+- Before each round, the bot will check if you have sufficient balance in your wallet and if you have reached your daily profit goal. 
+- It will also save a daily history in the **/history** directory.
+- Please note that after consecutive losses, there is a higher statistical probability of winning in the next round.
+- In the ``THRESHOLD`` property of the ``GLOBAL_CONFIG`` variable in **bot.js**, you can configure the minimum level of certainty required for the bot to make a bet. The default is set to 50, meaning the bot will only bet if it has at least 50% certainty in its prediction. You can increase this threshold (between 50-100) to only bet when the bot is more confident in its prediction.
+- It is recommended to have **at least 10-50 times** the amount of your bet to average a sufficient number of rounds.
 
 💰You can check the history of rounds and claim rewards here: https://pancakeswap.finance/prediction
 
